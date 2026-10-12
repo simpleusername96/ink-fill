@@ -1,0 +1,4857 @@
+{
+  "schema": 2,
+  "fingerprint": "42343bf59eda82bbb9f60c77833657c69316e86cd7a61ae7395b95498d7e3bbe",
+  "stages": {
+    "first-line": {
+      "id": "first-line",
+      "variant": 0,
+      "par": 1,
+      "stageHash": "1dd553a50d5bba155a2c32f5206a52132b1b2d8c884dd5df82abb54984332b8f",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 240,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {},
+          "suiteHash": "ed2b18cf4164d97d20aa68a465e518a0eb31b3582344da41a92e9a21d0599990",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 1,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 63.22395833333333
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 1,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 65.91927083333333
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 1,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 60.66666666666667
+            }
+          ]
+        }
+      ]
+    },
+    "first-blade": {
+      "id": "first-blade",
+      "variant": 0,
+      "par": 3,
+      "stageHash": "657c03210532f02b5fa07c6ce827990b22b43bfebb93b68aad50fb93d4847eeb",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 480,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 560,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner-1-1": [
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "61c73d3e459df09b67470d3d96c048c58bc88dc25bffbd780cbf9a0ac31ff1bc",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 75.44010416666667
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 67.578125
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 74.875
+            }
+          ]
+        }
+      ]
+    },
+    "lasting-frost": {
+      "id": "lasting-frost",
+      "variant": 0,
+      "par": 3,
+      "stageHash": "84f07029a4698936ee5efa3f2a69accc14f7acf199f92e518b8414df7e13653a",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 240,
+              "power": 0.95
+            },
+            {
+              "x": 678.1025948689853,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner-1-1": [
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "61c73d3e459df09b67470d3d96c048c58bc88dc25bffbd780cbf9a0ac31ff1bc",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.27864583333334
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.40625
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 60.609375
+            }
+          ]
+        }
+      ]
+    },
+    "choose-target": {
+      "id": "choose-target",
+      "variant": 0,
+      "par": 3,
+      "stageHash": "c01cd2f36b5447387b7459b6a347ab40e6ec5b923ea18c75c75a7bc4d87145fe",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 408,
+              "y": 524,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 240,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner-1-1": [
+              {
+                "x": 408,
+                "y": 524,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              }
+            ],
+            "corner--1--1": [
+              {
+                "x": 408,
+                "y": 524,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "61c73d3e459df09b67470d3d96c048c58bc88dc25bffbd780cbf9a0ac31ff1bc",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 67.6015625
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 60.0859375
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 75.69270833333334
+            }
+          ]
+        }
+      ]
+    },
+    "separate-paths": {
+      "id": "separate-paths",
+      "variant": 0,
+      "par": 4,
+      "stageHash": "950c0da8f205d5cbfff0031cd7709f8483a1e105838d12c7ed550754479f50f7",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 296,
+              "y": 508,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 296,
+                "y": 508,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 300,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 296,
+                "y": 508,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "dbd6f00050571e120ca0a786900276a13a1cf951d9d65deef058a8ef0ffc2f08",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 65.40625
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 77.20572916666667
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 85.34895833333334
+            }
+          ]
+        }
+      ]
+    },
+    "boss-garden": {
+      "id": "boss-garden",
+      "variant": 0,
+      "par": 5,
+      "stageHash": "f01b9a326a801f23ff0efe2785b2c889a463036d46b4bddacdc113793c831e7c",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 880,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 476,
+              "y": 376,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 324.3750000000016,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 504,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 80,
+                "power": 0.95
+              },
+              {
+                "x": 476,
+                "y": 376,
+                "power": 0.95
+              },
+              {
+                "x": 839.5000000000048,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "0891d56f0614b21884a8dfad3ff0f8ca3161692c656c38941a350a81cbcd5ec2",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 94.96614583333334
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            }
+          ]
+        }
+      ]
+    },
+    "first-wall": {
+      "id": "first-wall",
+      "variant": 0,
+      "par": 4,
+      "stageHash": "89cd611022f1d2e1b76c84f8cdd8fada33246406550e2f285649831ebae869ec",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 540,
+              "y": 120,
+              "power": 0.7
+            },
+            {
+              "x": 0,
+              "y": 400,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 540,
+                "y": 120,
+                "power": 0.7
+              },
+              {
+                "x": 960,
+                "y": 579.4480900000003,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "5c632bd9011936e32ea5c74da0192f5ae8214eece9ddf5d8ede33ecaeaa6e1cf",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 78.22468062689319
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 65.36283418938496
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 72.76175424733307
+            }
+          ]
+        }
+      ]
+    },
+    "first-charge": {
+      "id": "first-charge",
+      "variant": 0,
+      "par": 4,
+      "stageHash": "4758b4ca1d3b1f2663280ca3dbed1db1aa18f6e3e21b2bf37cb9010bdae15eef",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 240,
+              "power": 0.95
+            },
+            {
+              "x": 548.0025166882333,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 120.02699999999962,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "5c632bd9011936e32ea5c74da0192f5ae8214eece9ddf5d8ede33ecaeaa6e1cf",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 65.96366508688783
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 71.35860979462875
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 62.70405476566614
+            }
+          ]
+        }
+      ]
+    },
+    "stored-guard": {
+      "id": "stored-guard",
+      "variant": 0,
+      "par": 4,
+      "stageHash": "034a7eb6c8729f7ee7fab54864eade86b3b1caec78c3e61e8e48045734f8b531",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 546.6908400000005,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "5c632bd9011936e32ea5c74da0192f5ae8214eece9ddf5d8ede33ecaeaa6e1cf",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 62.00949367088607
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 74.04272151898735
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 62.77162447257384
+            }
+          ]
+        }
+      ]
+    },
+    "guarded-blast": {
+      "id": "guarded-blast",
+      "variant": 0,
+      "par": 4,
+      "stageHash": "63b2ff44763d2262977203db1138dfcdbb1355080dd11e0cec13b402097ed48b",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 612,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 352,
+                "y": 152,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 612,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 612,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "5c632bd9011936e32ea5c74da0192f5ae8214eece9ddf5d8ede33ecaeaa6e1cf",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 82.83822287885184
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 88.72678345293372
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 65.27543267201351
+            }
+          ]
+        }
+      ]
+    },
+    "guarded-frost": {
+      "id": "guarded-frost",
+      "variant": 0,
+      "par": 4,
+      "stageHash": "83d9f8f58c400b05b69a6a251065de87889ae433b0e193ae4b1d55becb16a42e",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 880,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 186.8915998642282,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner-1-1": [
+              {
+                "x": 880,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 193.05161671250394,
+                "power": 0.95
+              },
+              {
+                "x": 352,
+                "y": 300,
+                "power": 0.7
+              }
+            ]
+          },
+          "suiteHash": "5c632bd9011936e32ea5c74da0192f5ae8214eece9ddf5d8ede33ecaeaa6e1cf",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 67.49439831290364
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 67.34941347040991
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 71.97311190193753
+            }
+          ]
+        }
+      ]
+    },
+    "boss-minhwa": {
+      "id": "boss-minhwa",
+      "variant": 0,
+      "par": 5,
+      "stageHash": "5d5848d6c5acfdf5caa46c1643165061469944c42269a06126833f245e9db28c",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 480,
+              "y": 136,
+              "power": 0.7
+            },
+            {
+              "x": 480,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 480,
+                "y": 136,
+                "power": 0.7
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 241.9556650113231,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 480,
+                "y": 136,
+                "power": 0.7
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "1c3f0c9ccc9e36831611d713e1b50c8dad1ce5474a774de05032319d2190adf1",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            }
+          ]
+        }
+      ]
+    },
+    "first-shot": {
+      "id": "first-shot",
+      "variant": 0,
+      "par": 5,
+      "stageHash": "6fa2967a67a604fe76aa9c759e224c3b184fb8675f96734579a3c74b80ba12d9",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 960,
+              "y": 400,
+              "power": 0.95
+            },
+            {
+              "x": 80,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 570,
+              "y": 168,
+              "power": 0.85
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 108.42008809758744,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 478,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "1c3f0c9ccc9e36831611d713e1b50c8dad1ce5474a774de05032319d2190adf1",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 81.70113972140143
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 73.18224989447025
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 73.35637399746729
+            }
+          ]
+        }
+      ]
+    },
+    "first-blast": {
+      "id": "first-blast",
+      "variant": 0,
+      "par": 5,
+      "stageHash": "81b4769ed5c23dffd3d3c59201cdf911f1aa219778be3ef3128a2851e105ce4e",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 480,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 80,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 247.39786476748986,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "1c3f0c9ccc9e36831611d713e1b50c8dad1ce5474a774de05032319d2190adf1",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.53610641891892
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 70.82717483108108
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 75.77597128378379
+            }
+          ]
+        }
+      ]
+    },
+    "first-pull": {
+      "id": "first-pull",
+      "variant": 0,
+      "par": 5,
+      "stageHash": "c4a7badacef993f3616222aaa3075313e09cc92b0ffe53234f06998f50cf7410",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 600,
+              "y": 156,
+              "power": 0.7
+            },
+            {
+              "x": 586.2469412682312,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 600,
+                "y": 156,
+                "power": 0.7
+              },
+              {
+                "x": 0,
+                "y": 465.3198216666699,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 599.2463470348997,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 600,
+                "y": 156,
+                "power": 0.7
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "1c3f0c9ccc9e36831611d713e1b50c8dad1ce5474a774de05032319d2190adf1",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 87.0750633445946
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 75.79708614864865
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 72.08878800675676
+            }
+          ]
+        }
+      ]
+    },
+    "gather-and-blast": {
+      "id": "gather-and-blast",
+      "variant": 0,
+      "par": 5,
+      "stageHash": "dde4577882b79e1606951ac6f9ec406191c28bb6616f73719d6e4feb6ce59d46",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 496,
+              "y": 556,
+              "power": 0.95
+            },
+            {
+              "x": 80,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 240,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 496,
+                "y": 556,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 496,
+                "y": 556,
+                "power": 0.95
+              },
+              {
+                "x": 540,
+                "y": 186,
+                "power": 0.85
+              },
+              {
+                "x": 842,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 488.75755131368186,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "1c3f0c9ccc9e36831611d713e1b50c8dad1ce5474a774de05032319d2190adf1",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 70.59890139192576
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 73.31342328409151
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 89.53122500133325
+            }
+          ]
+        }
+      ]
+    },
+    "gather-and-freeze": {
+      "id": "gather-and-freeze",
+      "variant": 0,
+      "par": 5,
+      "stageHash": "cf76c5116450db0ec5cfe9816f286e2bbbec862add69eebadd85cfdcec9b4f56",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 400,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 416,
+              "power": 0.85
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 260,
+                "y": 140,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "1c3f0c9ccc9e36831611d713e1b50c8dad1ce5474a774de05032319d2190adf1",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 77.12852995513329
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 81.34336236474003
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 77.57983636843494
+            }
+          ]
+        }
+      ]
+    },
+    "gather-and-guard": {
+      "id": "gather-and-guard",
+      "variant": 0,
+      "par": 5,
+      "stageHash": "9a0487507e1a59bcaee2215249b464b3c62d01d33f656e8d3aa4c77894fd514a",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 400,
+              "power": 0.95
+            },
+            {
+              "x": 537.8048276108385,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 554.5338248502276,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 658,
+                "y": 416,
+                "power": 0.85
+              }
+            ]
+          },
+          "suiteHash": "1c3f0c9ccc9e36831611d713e1b50c8dad1ce5474a774de05032319d2190adf1",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 72.4043788977811
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 69.89641604882097
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 82.17124809293112
+            }
+          ]
+        }
+      ]
+    },
+    "boss-glass": {
+      "id": "boss-glass",
+      "variant": 2,
+      "par": 6,
+      "stageHash": "f843e5de5f042dedcbb6f13398441fc4f84110179582db169b9664bacb0635d5",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 240,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 312,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 504,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 504,
+              "power": 0.95
+            },
+            {
+              "x": 477.4664528159818,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 674,
+                "y": 328,
+                "power": 0.85
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 404.21855421787535,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 440,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 465.72172129776607,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 96.73657828782483
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            }
+          ]
+        }
+      ]
+    },
+    "first-hop": {
+      "id": "first-hop",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "99b4fd0df2171c6df8b75d52cfe1dcee3faa61c07a4fcb699b587d1d950aefd4",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 564,
+              "y": 536,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 240,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 564,
+                "y": 536,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 69.1919191919192
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 77.71132376395535
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 73.51674641148325
+            }
+          ]
+        }
+      ]
+    },
+    "first-erase": {
+      "id": "first-erase",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "08acde1a581cb78a098af460002e2119926971b457c49be26894532348f1a9b6",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 664,
+              "y": 508,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 316.2192257616156,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 664,
+                "y": 508,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 664,
+                "y": 508,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 298.17452018400263,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 586.4009669550302,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 79.23498722316864
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 84.36967632027257
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 80.08145229982965
+            }
+          ]
+        }
+      ]
+    },
+    "first-nest": {
+      "id": "first-nest",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "0308d34156f78520deac67c356ce667e0ce21d3bd890ca0e5024e7b4415f5f00",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 344,
+              "y": 450,
+              "power": 0.85
+            },
+            {
+              "x": 495.4174319482416,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 852,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 344,
+                "y": 450,
+                "power": 0.85
+              },
+              {
+                "x": 859.5145829158272,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 344,
+                "y": 450,
+                "power": 0.85
+              },
+              {
+                "x": 0,
+                "y": 80,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 71.856367120954
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 78.82506388415673
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 77.56335178875638
+            }
+          ]
+        }
+      ]
+    },
+    "crossed-charge": {
+      "id": "crossed-charge",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "634383077865d71a61e597d1fce8fa1e39e4f656540a6185bd3cb90596a680f5",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 388,
+              "y": 176,
+              "power": 0.7
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 388,
+                "y": 176,
+                "power": 0.7
+              },
+              {
+                "x": 824,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 824,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 388,
+                "y": 176,
+                "power": 0.7
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 520,
+                "y": 370,
+                "power": 0.85
+              },
+              {
+                "x": 130.25842297215237,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 79.23668240053945
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 90.71611598111934
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 82.3762643290627
+            }
+          ]
+        }
+      ]
+    },
+    "crossed-fire": {
+      "id": "crossed-fire",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "20056d12bdb7f7cb6678ce673758af913ae28b4e200c2cb33993e0b9841a49fd",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 338,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 400,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 338,
+                "power": 0.95
+              },
+              {
+                "x": 386,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 560,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 0,
+                "y": 338,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 84.82154882154882
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.21279461279461
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 94.56969696969696
+            }
+          ]
+        }
+      ]
+    },
+    "growing-pull": {
+      "id": "growing-pull",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "e8eaaf3bcdc9b8a126a1cbbd5f5395afdcc292899e6d9126ddc45cef77199ef1",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 356,
+              "y": 152,
+              "power": 0.95
+            },
+            {
+              "x": 508.7181539504579,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 356,
+                "y": 152,
+                "power": 0.95
+              },
+              {
+                "x": 564,
+                "y": 104,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 409.3063932622891,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 356,
+                "y": 152,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.79212194792932
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 85.77903682719547
+            }
+          ]
+        }
+      ]
+    },
+    "boss-ink": {
+      "id": "boss-ink",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "4390f5f2cb0253deb20c0093ef4b33be443d2acb79521dc6f358d7658b832adf",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 480,
+              "y": 136,
+              "power": 0.7
+            },
+            {
+              "x": 722,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 416,
+              "y": 388,
+              "power": 0.95
+            },
+            {
+              "x": 250,
+              "y": 464,
+              "power": 0.85
+            },
+            {
+              "x": 0,
+              "y": 226,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 480,
+                "y": 136,
+                "power": 0.7
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 400.2743771983503,
+                "y": 391.4116302218923,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 242,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 722,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 480,
+                "y": 136,
+                "power": 0.7
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 250,
+                "y": 464,
+                "power": 0.85
+              },
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 95.54218150830847
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 6,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 96.36237750319557
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 6,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 96.38101832126118
+            }
+          ]
+        }
+      ]
+    },
+    "first-boost": {
+      "id": "first-boost",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "4fba2ff2ceeedb15d728ede698c7a57b609bcfcb6de9658ecef2e60a25ee7ebc",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 880,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 880,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 86.86377245508982
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 85.69111776447106
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 88.91903692614771
+            }
+          ]
+        }
+      ]
+    },
+    "first-mud": {
+      "id": "first-mud",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "5aaacf910a955b2b0b937b5e9d8c486945924a52b1d0366b1eae1617ca762ca9",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 416,
+              "y": 520,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 240,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 416,
+                "y": 520,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 460.79589165516643,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 416,
+                "y": 520,
+                "power": 0.95
+              },
+              {
+                "x": 628.6750133120219,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 564.8592802378869,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 77.58985805860806
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 72.54750457875457
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 94.8489010989011
+            }
+          ]
+        }
+      ]
+    },
+    "first-haven": {
+      "id": "first-haven",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "13d6b33c61470658f3e25ae81efb14e28a9ab10546c931f856bc0504552957d3",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 322,
+              "y": 308,
+              "power": 0.85
+            },
+            {
+              "x": 960,
+              "y": 116.040720000003,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 322,
+                "y": 308,
+                "power": 0.85
+              },
+              {
+                "x": 760,
+                "y": 236.04072000000554,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 322,
+                "y": 308,
+                "power": 0.85
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 81.76351638995317
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 74.9973392933163
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 74.52905491698594
+            }
+          ]
+        }
+      ]
+    },
+    "first-spikes": {
+      "id": "first-spikes",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "ba7519458eaae2150ea8983c916cfe2db8657ac4f6fd29051887a30f80cb3cab",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 960,
+              "y": 574,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 400,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 960,
+                "y": 574,
+                "power": 0.95
+              },
+              {
+                "x": 580,
+                "y": 172,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 348.3244141928284,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 406.2464150703404,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 960,
+                "y": 574,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 74.50329246139873
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 77.8099455040872
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 83.31630336058129
+            }
+          ]
+        }
+      ]
+    },
+    "field-run": {
+      "id": "field-run",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "91ea5981126fa5e9e23475cc9bd141a38f7b75a3ed0daa12ea293ea090cc4365",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 480,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 291.2012297981372,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 80.49164377289377
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 73.94974816849816
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 78.6000457875458
+            }
+          ]
+        }
+      ]
+    },
+    "boss-field": {
+      "id": "boss-field",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "93346464c3bbad239890f19d00db0ca132202527e9df9cda80a27412299c7c38",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 476,
+              "y": 504,
+              "power": 0.7
+            },
+            {
+              "x": 960,
+              "y": 400,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 80,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 400,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 476,
+                "y": 504,
+                "power": 0.7
+              },
+              {
+                "x": 472.1045313347578,
+                "y": 201.6969577442993,
+                "power": 0.7
+              },
+              {
+                "x": 476,
+                "y": 312,
+                "power": 0.95
+              },
+              {
+                "x": 496.6517795053077,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 476,
+                "y": 504,
+                "power": 0.7
+              },
+              {
+                "x": 236,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            }
+          ]
+        }
+      ]
+    },
+    "first-chaser": {
+      "id": "first-chaser",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "a4bccca424c7204ff077fdac71cfe52bd5a2728704661ed73dfde8ff68a49c20",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 484,
+              "y": 380,
+              "power": 0.85
+            },
+            {
+              "x": 960,
+              "y": 80,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 484,
+                "y": 380,
+                "power": 0.85
+              },
+              {
+                "x": 960,
+                "y": 153.63130882010435,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 484,
+                "y": 380,
+                "power": 0.85
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 88.13634072580645
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 86.16746471774194
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 74.92754536290323
+            }
+          ]
+        }
+      ]
+    },
+    "first-heart": {
+      "id": "first-heart",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "b73c73f99a0d55201cd189a6c93f6f24ff10475c461930eb3b9c74d8c8783491",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 880,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 332,
+              "y": 508,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 398.72127790385065,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 476,
+                "y": 376,
+                "power": 0.7
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 75.9128891941392
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 82.04269688644689
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.88587454212454
+            }
+          ]
+        }
+      ]
+    },
+    "first-split": {
+      "id": "first-split",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "1d39350f9bfb0dde92f82b7cb27a10cb3ad4d95354e95cd40feee7430e8230eb",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 584,
+              "y": 168,
+              "power": 0.7
+            },
+            {
+              "x": 344,
+              "y": 224,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 584,
+                "y": 168,
+                "power": 0.7
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 560,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 584,
+                "y": 168,
+                "power": 0.7
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 85.31448683015441
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 73.57232061762035
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 83.00976385104451
+            }
+          ]
+        }
+      ]
+    },
+    "first-mine": {
+      "id": "first-mine",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "af5a9144165c818ab7f139a53c1e369643ec4891faea8b16c669248142b71859",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 384,
+              "y": 196,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 240,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 80,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 710,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 75.0499001996008
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 78.97018463073853
+            }
+          ]
+        }
+      ]
+    },
+    "first-ink": {
+      "id": "first-ink",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "e1a085697f2b695068ad6b7c44eb40c1b95bdc4e93881b1a558fb5a5220f371e",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 412,
+              "y": 84,
+              "power": 0.95
+            },
+            {
+              "x": 604,
+              "y": 152,
+              "power": 0.95
+            },
+            {
+              "x": 690.7155197181982,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 412,
+                "y": 84,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 412,
+                "y": 84,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 77.26076007326007
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 83.46783424908425
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 88.83356227106228
+            }
+          ]
+        }
+      ]
+    },
+    "goblin-pack": {
+      "id": "goblin-pack",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "89fa44d051884d1fe011755ee7a9c4f3714cd63a055b8da1f66fdfc07db0e6e1",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 80,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 560,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 80,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 80,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 560,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 80,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 430.52218680467627,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 80.91223887375114
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 93.60240690281563
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 83.99182561307902
+            }
+          ]
+        }
+      ]
+    },
+    "boss-goblin": {
+      "id": "boss-goblin",
+      "variant": 1,
+      "par": 6,
+      "stageHash": "ce59e93b606567de7707c776e0715dea5a2ea73a2f2db7ac80bdf8861cdcd5fe",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 480,
+              "y": 504,
+              "power": 0.7
+            },
+            {
+              "x": 80,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 416,
+              "y": 252,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 732.5146748607269,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 480,
+                "y": 504,
+                "power": 0.7
+              },
+              {
+                "x": 436,
+                "y": 380,
+                "power": 0.95
+              },
+              {
+                "x": 233.53051399726974,
+                "y": 216.90076233127525,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 74.30600659473569,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 480,
+                "y": 504,
+                "power": 0.7
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 303.21658253960356,
+                "power": 0.95
+              },
+              {
+                "x": 436,
+                "y": 380,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 6,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-charge": {
+      "id": "challenge-charge",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "c4cb1b705494c5b1696e8c7bf9a8aaa6e790fc3784165705dd3a6e393da4b701",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 169.23403588832915,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 748,
+                "y": 360.5040000000011,
+                "power": 0.7
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 109.64011430737473,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 580.5993462931747,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 77.70417664272414
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 80.56930034583665
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 74.59962756052143
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-fire": {
+      "id": "challenge-fire",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "33d006d0277b94507da461eddde2a5d86f7262fa5e97147940706c13abd8e6a7",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 298,
+              "power": 0.95
+            },
+            {
+              "x": 80,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 632,
+              "y": 438,
+              "power": 0.85
+            },
+            {
+              "x": 960,
+              "y": 240,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 560,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 298,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 560.7999999999993,
+                "power": 0.95
+              },
+              {
+                "x": 98,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 0,
+                "y": 298,
+                "power": 0.95
+              },
+              {
+                "x": 552,
+                "y": 528,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.47472289808056
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 6,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 89.5241957285753
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.26655852933226
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-nest": {
+      "id": "challenge-nest",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "f4f582bd1c5a2c1419817571cac2352b91a3c2b253669517402b0c9955324196",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 480,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 80,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 240,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 560,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 266.2685534606281,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 416,
+                "y": 360,
+                "power": 0.85
+              },
+              {
+                "x": 574.3778857148939,
+                "y": 436.5812959338442,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.85961410512309
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 79.55821689953426
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 80.13838988689288
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-hop": {
+      "id": "challenge-hop",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "98f3199d63d63dbadd9524ef3089de22305bcb1214967393eda6310039e06c22",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 960,
+              "y": 400,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 240,
+              "power": 0.95
+            },
+            {
+              "x": 880,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 400,
+              "power": 0.95
+            },
+            {
+              "x": 490.1630244454364,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 960,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 122,
+                "y": 640,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 79.51070336391437
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 74.70975075099456
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 80.49849801087927
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-erase": {
+      "id": "challenge-erase",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "29396844290530cdbf37d262e8cf48f7187350dcdc427fda284ba0c1dc67c2c2",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 960,
+              "y": 240,
+              "power": 0.95
+            },
+            {
+              "x": 80,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 821.4669912480439,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 132,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 344,
+                "y": 144,
+                "power": 0.7
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 532,
+                "y": 124,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 435.1307912369809,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 80,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 77.07135336518992
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 5,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 78.27812424070625
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 76.7635862962663
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-control": {
+      "id": "challenge-control",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "62cf6e9bf5403c84d33d1a21167d2c7532febb8d0213b7263be2978be29ab7d9",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 80,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 80,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 80,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 80,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 332,
+                "y": 512,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 94.39829605963791
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 79.27316293929712
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 82.95793397231097
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-crossfire": {
+      "id": "challenge-crossfire",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "1211128da03ec05c9ffc5d80f46d2fc671895e1dad21d2a1b0e3f33b7c344d7e",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 302,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 720,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 302,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 0,
+                "y": 302,
+                "power": 0.95
+              },
+              {
+                "x": 227.81894697640917,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 548.958099943552,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 84.30564964097006
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 89.55968026012735
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 82.02411597344533
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-occupancy": {
+      "id": "challenge-occupancy",
+      "variant": 1,
+      "par": 6,
+      "stageHash": "1c04114c5e6ac4865c790eb466a02788f4a41728ac28d50c14d606afbc6ea740",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 644,
+              "y": 204,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 143.85679741716956,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 644,
+                "y": 204,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 798.764143313136,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 644,
+                "y": 204,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 638,
+                "y": 388,
+                "power": 0.85
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 2,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 95.49925484351714
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 90.12599918710202
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-timing": {
+      "id": "challenge-timing",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "56e1be5aee4da3b4615713e59dcd0262b576564b871c84997c0765a751b0ac3a",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 540,
+              "y": 520,
+              "power": 0.7
+            },
+            {
+              "x": 0,
+              "y": 240,
+              "power": 0.95
+            },
+            {
+              "x": 296,
+              "y": 452,
+              "power": 0.95
+            },
+            {
+              "x": 880,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 540,
+                "y": 520,
+                "power": 0.7
+              },
+              {
+                "x": 960,
+                "y": 420.23010406106283,
+                "power": 0.95
+              },
+              {
+                "x": 80,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 261.4080270700798,
+                "y": 553.1496595534035,
+                "power": 0.95
+              },
+              {
+                "x": 854,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 540,
+                "y": 520,
+                "power": 0.7
+              },
+              {
+                "x": 880,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 855.9504715875141,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 704.0224013369937,
+                "y": 0,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 93.82722740082376
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 6,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 86.89572946022112
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 92.65662258833731
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-field": {
+      "id": "challenge-field",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "c29607b3e3fe91056323b22f05a2c613064d2cc181ab075c9ee939c6406d4d1a",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 0,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 0,
+              "y": 484.9377831905381,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 109.90384353631808,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 476,
+                "y": 264,
+                "power": 0.95
+              },
+              {
+                "x": 720,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 700.999139169345,
+                "y": 0,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 110,
+                "power": 0.95
+              },
+              {
+                "x": 476,
+                "y": 264,
+                "power": 0.7
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 3,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 3,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 100
+            }
+          ]
+        }
+      ]
+    },
+    "challenge-goblin": {
+      "id": "challenge-goblin",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "10b0ce89999dc4148b9fc10216a15f9b1712a08bc9cf4f18cfe4ddbbea142dbe",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 548,
+              "y": 116,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 272.3508369698817,
+              "power": 0.95
+            },
+            {
+              "x": 480,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 785.8944725118538,
+              "y": 591.47731261619,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 548,
+                "y": 116,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 409.96000000000004,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 174,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 548,
+                "y": 116,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 476,
+                "y": 264,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 515.1916152913939,
+                "power": 0.95
+              },
+              {
+                "x": 893.9784855012754,
+                "y": 285.69872615764893,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 81.05983197093552
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 79.16382833787466
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 6,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 80.22536330608537
+            }
+          ]
+        }
+      ]
+    },
+    "final": {
+      "id": "final",
+      "variant": 0,
+      "par": 6,
+      "stageHash": "604c4489a91f84a49781816d49134bb2dc5b659d515770e2ce3e6a8fb891bef3",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 356,
+              "y": 156,
+              "power": 0.7
+            },
+            {
+              "x": 634.1999999999994,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 98.33056177872783,
+              "power": 0.95
+            },
+            {
+              "x": 577.09549842679,
+              "y": 640,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 356,
+                "y": 156,
+                "power": 0.7
+              },
+              {
+                "x": 240,
+                "y": 640,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 632.3710939969599,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 560,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 284.87817313436074,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 356,
+                "y": 156,
+                "power": 0.7
+              },
+              {
+                "x": 267.9716024336096,
+                "y": 476.0123412266994,
+                "power": 0.95
+              },
+              {
+                "x": 240,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 560,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 4,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 89.88379669852303
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 6,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 95.93016941789749
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 5,
+              "lives": 2,
+              "stars": 3,
+              "coverage": 89.45753692441355
+            }
+          ]
+        }
+      ]
+    },
+    "boss-final": {
+      "id": "boss-final",
+      "variant": 1,
+      "par": 6,
+      "stageHash": "10abadc7a9b572dba19c733e21d4fb8288055ce13129a66989f4df87546a1bc7",
+      "routes": [
+        {
+          "actions": [
+            {
+              "x": 480,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 880,
+              "y": 0,
+              "power": 0.95
+            },
+            {
+              "x": 240,
+              "y": 640,
+              "power": 0.95
+            },
+            {
+              "x": 960,
+              "y": 560,
+              "power": 0.95
+            },
+            {
+              "x": 80,
+              "y": 0,
+              "power": 0.95
+            }
+          ],
+          "caseActions": {
+            "corner--1--1": [
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 960,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 680.8664570583205,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 400,
+                "power": 0.95
+              },
+              {
+                "x": 438.4998735346552,
+                "y": 640,
+                "power": 0.95
+              }
+            ],
+            "corner-1-1": [
+              {
+                "x": 480,
+                "y": 0,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 336,
+                "y": 504,
+                "power": 0.95
+              },
+              {
+                "x": 0,
+                "y": 240,
+                "power": 0.95
+              },
+              {
+                "x": 668,
+                "y": 456,
+                "power": 0.95
+              }
+            ]
+          },
+          "suiteHash": "970cea778eecb55e54a3b1965c8edf83a104f29b1a03cf1db6b6c36fa632a428",
+          "results": [
+            {
+              "case": "nominal",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner--1--1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            },
+            {
+              "case": "corner-1-1",
+              "win": true,
+              "shots": 5,
+              "lives": 3,
+              "stars": 3,
+              "coverage": 100
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

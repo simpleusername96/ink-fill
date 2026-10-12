@@ -1,0 +1,17 @@
+{
+  "name": "ink-fill",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Single-file browser puzzle-action game",
+  "scripts": {
+    "validate": "node tools/validate.cjs",
+    "test": "node --test --test-concurrency=1 tests/gameplay.cjs tests/map-art.cjs tests/localization.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

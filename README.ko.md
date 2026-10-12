@@ -4,11 +4,11 @@
 
 **[바로 플레이](https://playroom.mmonoo.com/games/ink-fill/#play)** · [English](README.md)
 
-[![영역 확보, 도구로 적 제거, 도구와 지형 조합을 보여주는 플레이](media/gameplay-preview.png)](media/gameplay.mp4)
+https://github.com/user-attachments/assets/54c44873-2cdf-4c60-834d-aaa1bc102f9a
 
 **영역을 확보하고, 도구로 적을 제거하고, 도구와 지형을 조합합니다.**
 
-31·28·33단계의 시작부터 클리어까지를 한 영상에 담았습니다.
+31·28·33단계의 시작부터 클리어까지를 한 영상에 담았습니다. [MP4 다운로드](media/gameplay.mp4).
 
 ## 게임 소개
 

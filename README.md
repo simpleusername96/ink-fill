@@ -4,11 +4,11 @@ An open-source puzzle-action browser game made with vanilla JavaScript and HTML5
 
 **[Play](https://playroom.mmonoo.com/en/games/ink-fill/#play)** · [한국어](README.ko.md)
 
-[![Ink Fill gameplay: claim territory, use tools to eliminate enemies, and combine tools with terrain](media/gameplay-preview.png)](media/gameplay.mp4)
+https://github.com/user-attachments/assets/54c44873-2cdf-4c60-834d-aaa1bc102f9a
 
 **Claim territory. Use tools to eliminate enemies. Combine tools and terrain.**
 
-Watch complete playthroughs of stages 31, 28, and 33 in one video.
+Watch complete playthroughs of stages 31, 28, and 33 in one video. [Download MP4](media/gameplay.mp4).
 
 ## About the game
 

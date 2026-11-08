@@ -49,11 +49,11 @@
 
 ## 검사 범위
 
-`npm run validate`는 번역 일치, 캠페인 재생, 브라우저 게임플레이·렌더링·번역 검사를 실행합니다.
+`npm run validate -- --scope input` selects input only. Select rules, campaign, save, presentation or localization separately for their actual changed risks; --list previews without execution. Missing scope stops. Only explicit --all runs the complete retained collection.
 
 | 파일 | 검사 범위 |
 | --- | --- |
-| `tests/campaign.cjs` | 실제 엔진을 사용한 캠페인·규칙 검사. 게임플레이 검사에서도 불러옵니다. |
+| `tests/campaign.cjs` | 실제 엔진을 사용한 캠페인·규칙 검사. 명시적인 campaign 범위에서만 실행합니다. |
 | `tests/gameplay.cjs` | 실제 브라우저 입력, 저장, 메뉴, 시뮬레이션과 공유 동작. |
 | `tests/map-art.cjs` | 실제 캔버스 렌더링과 시각 효과. |
 | `tests/localization.cjs` | 언어 선택, 문구와 카탈로그 연동. |

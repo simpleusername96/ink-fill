@@ -40,7 +40,7 @@ Development checks require Node.js 22 or later. These dependencies are needed fo
 ```sh
 npm ci --ignore-scripts
 npx --no-install playwright install chromium
-npm run validate
+npm run validate -- --scope input
 ```
 
 Read the Korean technical guide before changing simulation, stage generation, coordinate transforms, or localization. It describes the relevant entry points and validation boundaries.

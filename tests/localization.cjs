@@ -6,7 +6,7 @@ const url=pathToFileURL(path.resolve(__dirname,'../index.html')).href+'?test=1';
 before(async()=>{browser=await chromium.launch({headless:true,args:['--mute-audio'],...(process.env.INK_LASSO_BROWSER_PATH?{executablePath:process.env.INK_LASSO_BROWSER_PATH}:{})})});
 after(async()=>{await browser.close()});
 // Language is chosen on Home or in the pause menu; start=false stays on Home.
-async function open(t,options={},start=true){const p=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce',...options});const errors=[];p.on('pageerror',e=>errors.push(e.message));t.after(async()=>{await p.close();assert.deepEqual(errors,[])});await p.clock.install();await p.goto(url);await p.clock.runFor(40);if(start)await p.locator('[data-action="home-start"]').click();return p;}
+async function open(t,options={},start=true){const p=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce',locale:'ko-KR',...options});const errors=[];p.on('pageerror',e=>errors.push(e.message));t.after(async()=>{await p.close();assert.deepEqual(errors,[])});await p.clock.install();await p.goto(url);await p.clock.runFor(40);if(start)await p.locator('[data-action="home-start"]').click();return p;}
 test('four native language choices translate the tutorial and HUD without changing the world',async t=>{
  const p=await open(t,{},false);let before;
  assert.deepEqual(await p.locator('#language option').allTextContents(),['한국어','English','简体中文','日本語']);

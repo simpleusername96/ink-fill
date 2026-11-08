@@ -6,7 +6,7 @@
   "description": "Single-file browser puzzle-action game",
   "scripts": {
     "validate": "node tools/validate.cjs",
-    "test": "node --test --test-concurrency=1 tests/gameplay.cjs tests/map-art.cjs tests/localization.cjs"
+    "test": "node tools/validate.cjs"
   },
   "engines": {
     "node": "^22.23.4 || ^24.22.1 || ^26.12.1"

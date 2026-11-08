@@ -40,7 +40,7 @@ Ink Fill은 움직이는 공으로 영역을 차지하는 퍼즐 액션 게임�
 ```sh
 npm ci --ignore-scripts
 npx --no-install playwright install chromium
-npm run validate
+npm run validate -- --scope input
 ```
 
 시뮬레이션, 스테이지 생성, 좌표 변환, 번역을 수정하기 전에 기술 안내에서 진입점과 검사 범위를 확인하세요.

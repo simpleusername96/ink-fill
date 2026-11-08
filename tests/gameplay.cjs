@@ -20,7 +20,7 @@ before(async () => {
 });
 after(async () => { await browser?.close(); });
 async function open(t, { testMode = true, home = false, url = gameUrl, ...options } = {}) {
-  const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, ...options });
+  const context = await browser.newContext({ viewport: { width: 1440, height: 900 }, locale: 'ko-KR', ...options });
   const page = await context.newPage(), errors = [];
   page.on('pageerror', error => errors.push(error.message));
   t.after(async () => { await context.close(); assert.deepEqual(errors, [], 'no browser errors'); });

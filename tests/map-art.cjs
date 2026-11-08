@@ -7,7 +7,7 @@ const path=require('node:path');
 let browser;
 before(async()=>{browser=await chromium.launch({headless:true,args:['--mute-audio'],...(process.env.INK_LASSO_BROWSER_PATH?{executablePath:process.env.INK_LASSO_BROWSER_PATH}:{})});});
 after(async()=>{await browser?.close();});
-async function open(t){const page=await browser.newPage({viewport:{width:1440,height:960},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));t.after(async()=>{await page.close();assert.deepEqual(errors,[])});await page.clock.install();await page.goto(pathToFileURL(path.resolve(__dirname,'../index.html')).href+'?test=1');await page.clock.runFor(40);return page;}
+async function open(t){const page=await browser.newPage({viewport:{width:1440,height:960},reducedMotion:'reduce',locale:'ko-KR'});const errors=[];page.on('pageerror',e=>errors.push(e.message));t.after(async()=>{await page.close();assert.deepEqual(errors,[])});await page.clock.install();await page.goto(pathToFileURL(path.resolve(__dirname,'../index.html')).href+'?test=1');await page.clock.runFor(40);return page;}
 test('plain display ignores all artwork metadata and retains stored preferences',async t=>{
  const page=await open(t);
  await page.evaluate(()=>localStorage.setItem('inkfill.theme.v2',JSON.stringify('minhwa')));await page.reload();
